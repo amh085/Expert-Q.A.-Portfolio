@@ -1,0 +1,6 @@
+<!-- Hero Section -->
+<div style="text-align: center; padding: 20px;">
+  <img src="hero.jpg" alt="QA Specialist" style="max-width: 300px; border-radius: 12px; box-shadow: 0px 0px 10px #aaa;">
+  <h1>Hi, I'm [Your Name] – Expert QA Specialist</h1>
+  <p>I specialize in catching critical defects before they reach production.</p>
+</div>
