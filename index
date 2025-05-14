@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #007acc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #007acc;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    a.button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My QA Portfolio</h1>
+  </header>
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a QA professional with over 13 years of experience in manual and backend testing, with exposure to automation. I’ve worked on projects with Mercedes-Benz USA, Brightspeed, and various B2B and ecommerce platforms. I specialize in web testing, Agile workflows, and ensuring production-quality standards across environments.
+    </p>
+
+    <h2>Bug Report Template</h2>
+    <p>
+      You can download my bug reporting template using the link below.
+    </p>
+    <a href="bug-report-template.csv" class="button" download>Download Bug Report Template (CSV)</a>
+  </div>
+</body>
+</html>
