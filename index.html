@@ -60,3 +60,48 @@
   </div>
 </body>
 </html>
+
+
+<!-- Hero Section -->
+<div style="text-align: center; padding: 20px;">
+  <img src="hero.jpg" alt="QA Specialist" style="max-width: 300px; border-radius: 12px; box-shadow: 0px 0px 10px #aaa;">
+  <h1>Hi, I'm Adam Hassan – Expert QA Specialist</h1>
+  <p>I specialize in catching, collaborating and managing the catching of critical defects before they reach production.</p>
+</div>
+
+<!-- Defect Report Link -->
+<div style="text-align: center; margin-top: 30px;">
+  <button onclick="document.getElementById('defectReport').style.display='block'" style="padding: 10px 20px; font-size: 16px; border: none; border-radius: 8px; background-color: #007bff; color: white; cursor: pointer;">
+    Interviewer, please click here for a detailed defect report.
+  </button>
+</div>
+
+<!-- Jira-Style Defect Report Table -->
+<div id="defectReport" style="display: none; margin: 40px auto; max-width: 900px;">
+  <h2 style="text-align: center;">Defect Report</h2>
+  <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+    <thead style="background-color: #f2f2f2;">
+      <tr>
+        <th>Bug ID</th>
+        <th>Title</th>
+        <th>Steps to Reproduce</th>
+        <th>Expected Result</th>
+        <th>Actual Result</th>
+        <th>Severity</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>BUG-001</td>
+        <td>Mobile menu not responsive</td>
+        <td>1. Open site on iPhone 13<br>2. Tap menu icon</td>
+        <td>Menu expands smoothly</td>
+        <td>Nothing happens</td>
+        <td><strong style="color: red;">Blocker</strong></td>
+        <td>Open</td>
+      </tr>
+      <!-- Add more bugs here -->
+    </tbody>
+  </table>
+</div>
